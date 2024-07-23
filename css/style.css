@@ -1,0 +1,73 @@
+/* CSS */
+
+/* selector universal */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+   font-family: "Roboto", sans-serif;
+   background-color: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header img {
+    width: 60px;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: index;
+    display:flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color:black;
+    list-style: none;
+    text-decoration: none;
+}
+
+main h1 {
+    color: black;
+    font-family:"Roboto", sans-serif;
+    background-color: antiquewhite;
+}
+
+body {
+    font-family:"Roboto", sans-serif;
+    color: black;
+}
+
+body h2 {
+    color: tomato;
+}
+p {
+    color: black;
+    font-family:"Roboto", sans-serif;
+}
+
+.first-description {
+    color:lightslategray;
+}
+
+footer {
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+
+}
